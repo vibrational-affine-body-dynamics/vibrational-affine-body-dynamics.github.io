@@ -85,7 +85,7 @@
     .three-way-label { position: absolute; z-index: 4; top: 1rem; padding: .35rem .65rem; border-radius: 999px; color: #fff; background: rgba(0, 0, 0, .65); font-size: .8rem; font-weight: 700; letter-spacing: .03em; pointer-events: none; }
     .three-way-label.vabd { left: 1rem; }
     .three-way-label.fem { left: 50%; transform: translateX(-50%); }
-    .three-way-label.modal { right: 1rem; }
+    .three-way-label.md { right: 1rem; }
     .comparison-nav { position: absolute; z-index: 4; top: 41%; width: 42px; height: 42px; border: 0; border-radius: 50%; color: #fff; background: rgba(17, 24, 39, .82); font-size: 1.2rem; cursor: pointer; transform: translateY(-50%); }
     .comparison-nav:hover, .comparison-nav:focus-visible { background: #2563eb; }
     .comparison-nav.prev { left: 1rem; }
@@ -216,7 +216,7 @@
                 <video autoplay muted loop playsinline preload="metadata" aria-label="Tuning fork simulated with modal derivatives"><source src="static/videos/forks%20md.mp4" type="video/mp4"></video>
                 <div class="three-way-layer fem"><video autoplay muted loop playsinline preload="metadata" aria-label="Tuning fork finite-element ground truth"><source src="static/videos/fork%20fem.mp4" type="video/mp4"></video></div>
                 <div class="three-way-layer vabd"><video autoplay muted loop playsinline preload="metadata" aria-label="Tuning fork simulated with VABD"><source src="static/videos/fork%20ours.sa.mp4" type="video/mp4"></video></div>
-                <span class="three-way-label vabd">VABD</span><span class="three-way-label fem">FEM</span><span class="three-way-label modal" aria-label="Modal derivatives baseline">Modal derivatives</span>
+                <span class="three-way-label vabd">VABD</span><span class="three-way-label fem">FEM</span><span class="three-way-label md" aria-label="Modal derivatives baseline">Modal Derivatives</span>
                 <div class="three-way-divider first" data-handle="first" tabindex="0" role="slider" aria-label="VABD boundary" aria-valuemin="10" aria-valuemax="90" aria-valuenow="33"></div>
                 <div class="three-way-divider second" data-handle="second" tabindex="0" role="slider" aria-label="FEM boundary" aria-valuemin="10" aria-valuemax="90" aria-valuenow="66"></div>
               </div>
